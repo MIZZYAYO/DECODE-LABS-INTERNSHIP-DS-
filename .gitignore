@@ -1,0 +1,16 @@
+# Large data files (download from transtats.bts.gov)
+*.csv
+*.zip
+data/
+
+# Course PDF (28 MB)
+*.pdf
+
+# Charts from an older, unrelated dataset
+Task 1/figures/01_missing_values.png
+Task 1/figures/02_age_fare_distributions.png
+
+# Python / Jupyter clutter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
